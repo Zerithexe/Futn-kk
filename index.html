@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Futnık Üretim Tesisleri — fındıktan e-spora kadar gereksiz ama son derece ciddi üretim ağı.">
+  <title>Futnık | Üretim Tesisleri</title>
+  <link rel="icon" href="assets/logo.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#anasayfa" aria-label="Futnık ana sayfa">
+      <img src="assets/logo.png" alt="Futnık logosu" onerror="this.style.display='none'">
+      <span>FUTNIK</span>
+      <small>ÜRETİM TESİSLERİ</small>
+    </a>
+    <nav class="nav" aria-label="Ana menü">
+      <a href="#anasayfa">Ana Sayfa</a>
+      <a href="#birimler">Birimler</a>
+      <a href="#hizmetler">Hizmetler</a>
+      <a href="#operasyon">Operasyon</a>
+      <a href="#ekip">Geliştiriciler</a>
+    </nav>
+    <button class="cart-btn" id="cartOpen" type="button">Sepet <b id="cartCount">0</b></button>
+  </header>
+
+  <main>
+    <section class="hero" id="anasayfa">
+      <div class="hero-copy">
+        <div class="eyebrow"><span></span> TESİSLER AKTİF · 24/7 CİDDİYET</div>
+        <h1>Fındıktan e-spora,<br><em>her şey tek çatı altında.</em></h1>
+        <p>Futnık; fındık, hamsi, PlayStation, hayvancılık ve profesyonel e-spor yatırımlarını aynı kurumsal ciddiyetsizlik altında birleştiren yeni nesil üretim ağıdır.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#birimler">Tesisleri Keşfet <span>↗</span></a>
+          <button class="btn ghost" id="briefingBtn" type="button">Yönetim Brifingi <span>→</span></button>
+        </div>
+        <div class="status-row">
+          <div><strong>84%</strong><span>Fındık hattı</span></div>
+          <div><strong>61%</strong><span>Hamsi lojistiği</span></div>
+          <div><strong>93%</strong><span>İnek sağım sistemi</span></div>
+          <div><strong>77%</strong><span>E-spor akademisi</span></div>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="card-top"><span>FUTNIK / CORE</span><span class="live">● CANLI</span></div>
+        <div class="orb">F</div>
+        <div class="scanline"></div>
+        <div class="mini-grid">
+          <div><small>OPERASYON</small><b>MAKSİMUM</b></div>
+          <div><small>KAOS</small><b>OPTİMİZE</b></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Futnık duyuru bandı">
+      <div>SON DENETİM: <strong>"MAKUL SEVİYEDE SAÇMALIK"</strong></div>
+      <div>•</div><div>SİSTEM STABİL</div><div>•</div><div>YÖNETİM MEMNUN</div><div>•</div><div>FINDIK STOĞU KRİTİK DEĞİL</div>
+    </section>
+
+    <section class="section" id="birimler">
+      <div class="section-head">
+        <div><span class="eyebrow">01 / BİRİMLER</span><h2>Üretim ağının<br><em>ana kadrosu.</em></h2></div>
+        <p>Her birim kendi alanında lider. Neden var oldukları ise yönetim kurulunca hâlâ araştırılıyor.</p>
+      </div>
+      <div class="cards">
+        <article class="unit-card featured">
+          <div class="unit-icon">🌰</div><span class="number">01</span>
+          <h3>Fındık Kabuklama</h3><p>Karadeniz menşeli yüksek performanslı fındık işleme ve kabuk ayırma operasyonu.</p>
+          <button class="text-btn add" data-name="Fındık Kabuklama" data-price="120">Operasyona ekle →</button>
+        </article>
+        <article class="unit-card">
+          <div class="unit-icon">🐟</div><span class="number">02</span>
+          <h3>Hamsi Lojistik</h3><p>Hamsinin doğru zamanda doğru yere ulaştırılması. Detaylar stratejik sırdır.</p>
+          <button class="text-btn add" data-name="Hamsi Lojistik" data-price="90">Operasyona ekle →</button>
+        </article>
+        <article class="unit-card">
+          <div class="unit-icon">🐄</div><span class="number">03</span>
+          <h3>İnek Sağım Sistemi</h3><p>Geleneksel hayvancılığa modern, son derece ciddi ve hafif gereksiz bir yaklaşım.</p>
+          <button class="text-btn add" data-name="İnek Sağım Sistemi" data-price="150">Operasyona ekle →</button>
+        </article>
+        <article class="unit-card">
+          <div class="unit-icon">🎮</div><span class="number">04</span>
+          <h3>PS5 Operasyon</h3><p>PlayStation kafe altyapısı, kol yönetimi ve profesyonel maç öncesi hazırlık.</p>
+          <button class="text-btn add" data-name="PS5 Operasyon" data-price="200">Operasyona ekle →</button>
+        </article>
+        <article class="unit-card">
+          <div class="unit-icon">⚡</div><span class="number">05</span>
+          <h3>E-spor Akademi</h3><p>Yeni nesil oyuncuların yetiştirildiği, refleks ve ego ölçümünün yapıldığı merkez.</p>
+          <button class="text-btn add" data-name="E-spor Akademi" data-price="300">Operasyona ekle →</button>
+        </article>
+        <article class="unit-card">
+          <div class="unit-icon">🏭</div><span class="number">06</span>
+          <h3>Futnık Ar-Ge</h3><p>Yeni ve daha gereksiz üretim fikirlerinin test edildiği yüksek riskli laboratuvar.</p>
+          <button class="text-btn add" data-name="Futnık Ar-Ge" data-price="250">Operasyona ekle →</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="dark-section" id="hizmetler">
+      <div class="section-head light">
+        <div><span class="eyebrow">02 / HİZMETLER</span><h2>Kurumsal hizmetler.<br><em>Kurumsal olmayan sonuçlar.</em></h2></div>
+      </div>
+      <div class="service-list">
+        <div><span>01</span><div><h3>Üretim Planlama</h3><p>Fındık, hamsi ve diğer kritik kaynakların operasyonel planlaması.</p></div><b>↗</b></div>
+        <div><span>02</span><div><h3>E-spor Yatırımı</h3><p>Oyuncu yetiştirme, takım kurma ve gereksiz derecede ciddi turnuva hazırlığı.</p></div><b>↗</b></div>
+        <div><span>03</span><div><h3>PlayStation Kafe</h3><p>Rekabetçi oyun ortamı ve profesyonel kol kullanım denetimi.</p></div><b>↗</b></div>
+        <div><span>04</span><div><h3>Hayvancılık Operasyonları</h3><p>İnek sağımından yem yönetimine kadar tam kapsamlı tesis hizmetleri.</p></div><b>↗</b></div>
+      </div>
+    </section>
+
+    <section class="section operation" id="operasyon">
+      <div class="operation-copy">
+        <span class="eyebrow">03 / OPERASYON MERKEZİ</span>
+        <h2>Her şey<br><em>kontrol altında.</em></h2>
+        <p>Futnık operasyon merkezi, tesislerde gerçekleşen tüm anlamsız ama stratejik faaliyetleri tek ekranda izler.</p>
+        <div class="quote">“Durum: Her şey kontrol altında.”</div>
+      </div>
+      <div class="dashboard">
+        <div class="dash-head"><span>FUTNIK CONTROL</span><span>08.10.2026 / 17:34</span></div>
+        <div class="metric"><span>Fındık hattı</span><b>84%</b><i><u style="width:84%"></u></i></div>
+        <div class="metric"><span>Hamsi lojistiği</span><b>61%</b><i><u style="width:61%"></u></i></div>
+        <div class="metric"><span>Sağım sistemi</span><b>93%</b><i><u style="width:93%"></u></i></div>
+        <div class="metric"><span>E-spor akademisi</span><b>77%</b><i><u style="width:77%"></u></i></div>
+        <div class="system-ok">● TÜM SİSTEMLER NORMAL</div>
+      </div>
+    </section>
+
+    <section class="section team" id="ekip">
+      <div class="section-head">
+        <div><span class="eyebrow">04 / GELİŞTİRİCİLER</span><h2>Bu sistemin<br><em>arkasındaki ekip.</em></h2></div>
+      </div>
+      <div class="team-grid">
+        <div class="person"><span>01</span><b>Mert Ali Erol</b><small>Kurucu / Geliştirici</small></div>
+        <div class="person"><span>02</span><b>Muhammet Atalay</b><small>Geliştirici</small></div>
+        <div class="person"><span>03</span><b>Muhammed Efe Çiçek</b><small>Operasyon</small></div>
+        <div class="person"><span>04</span><b>Kağan Taha Demirci</b><small>Geliştirici</small></div>
+        <div class="person"><span>05</span><b>ÖMER FURKAN KÖSEOĞLU</b><small>Strateji</small></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand">FUTNIK<span>®</span></div>
+    <p>Fındıktan e-spora. Gereksizden kurumsala.</p>
+    <small>© 2026 Futnık Üretim Tesisleri · Tamamen ciddi değildir.</small>
+  </footer>
+
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-box">
+      <button class="close" id="modalClose" type="button">×</button>
+      <span class="eyebrow">FUTNIK / YÖNETİM BRİFİNGİ</span>
+      <h2>Yönetim notu.</h2>
+      <p>Üretim tesisleri başarıyla çalışıyor. Yönetim, sistemin bu kadar düzenli olmasından şüpheleniyor.</p>
+      <div class="brief-grid"><b>24/7</b><span>Operasyon</span><b>5</b><span>Aktif ekip üyesi</span><b>∞</b><span>Gereksiz fikir</span></div>
+    </div>
+  </div>
+
+  <aside class="cart" id="cart" aria-hidden="true">
+    <div class="cart-head"><h2>Operasyon Sepeti</h2><button id="cartClose" type="button">×</button></div>
+    <div id="cartItems" class="cart-items"><p class="empty">Henüz operasyon seçmedin.</p></div>
+    <div class="cart-foot"><span>Toplam</span><b id="cartTotal">₺0</b></div>
+    <button class="btn primary full" id="checkout" type="button">Operasyonu Başlat →</button>
+  </aside>
+  <div class="backdrop" id="backdrop"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
